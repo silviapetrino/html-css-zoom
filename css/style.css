@@ -110,15 +110,34 @@ main .video-card .user {
   background-color: #222222;
   border: none;
   cursor: pointer;
+  position: relative;
 }
 
 .btn:hover {
   background-color: rgb(87, 85, 85);
+  border-radius: 5px;;
 }
 
 .resize {
   font-size: 25px;
 }
+
 .action {
   padding-top: 5px;
+}
+
+.microphone {
+margin-right: 50px;
+}
+
+.arrow {
+ position: absolute;
+ bottom: 15px;
+ left: 50px;
+}
+
+.video .arrow {
+  position: absolute;
+  bottom: 15px;
+  left: 70px;
 }
