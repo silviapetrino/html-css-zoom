@@ -117,6 +117,7 @@ main .video-card .user {
   border: none;
   cursor: pointer;
   position: relative;
+  max-height: 70px;
 }
 
 .btn:hover {
@@ -125,12 +126,12 @@ main .video-card .user {
 }
 
 .resize {
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.action {
-  padding-top: 5px;
-}
+ .btn .action {
+  margin-top: 5px;
+} 
 
 .btn.microphone {
 margin-right: 50px;
