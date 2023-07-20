@@ -9,13 +9,25 @@
   display: flex;
 }
 
+main .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 90%;
+  background-color: white;
+}
+
 header#top-bar {
  background-color: red;
  height: 50px;
 }
 
 main {
-  height: calc(100vh - 110px)
+  height: calc(100vh - 110px);
+  background-color: violet;
+  overflow: auto;
 }
 
 footer#bottom-bar {
@@ -29,3 +41,10 @@ header#top-bar .functions {
  height: 100%;
 }
 
+
+main .video-card {
+  border: 1px solid black;
+  width: calc(100vw / 7);
+  min-width: 200px;
+  min-height: 150px;
+}
