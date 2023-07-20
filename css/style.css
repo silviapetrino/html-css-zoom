@@ -36,6 +36,7 @@ footer#bottom-bar {
   justify-content: space-between;
   align-items: center;
   color: white;
+  height: 100%;
 }
 
 /* /sections general istructions   */
@@ -151,7 +152,6 @@ margin-left: 20px;
 }
 
 .icons .btn {
-  background-color: ;
   margin: 0 10px;
 }
 
