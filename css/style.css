@@ -147,11 +147,11 @@ margin-right: 50px;
 }
 
 
-.icons {
-  
-}
-
 .icons .btn {
   background-color: ;
   margin: 0 10px;
+}
+
+.green {
+  color: rgb(77, 208, 77);
 }
