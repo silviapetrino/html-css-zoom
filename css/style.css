@@ -105,6 +105,10 @@ main .video-card .user {
   font-size: .8rem;
 }
 
+
+
+/* footer buttons */
+
 .btn {
   color: white;
   background-color: #222222;
@@ -126,7 +130,7 @@ main .video-card .user {
   padding-top: 5px;
 }
 
-.microphone {
+.btn.microphone {
 margin-right: 50px;
 }
 
@@ -136,8 +140,18 @@ margin-right: 50px;
  left: 50px;
 }
 
-.video .arrow {
+.btn.video .arrow {
   position: absolute;
   bottom: 15px;
   left: 70px;
+}
+
+
+.icons {
+  background-color: red;
+}
+
+.icons .btn {
+  background-color: ;
+  margin: 0 20px;
 }
