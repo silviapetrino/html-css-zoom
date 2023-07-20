@@ -8,8 +8,17 @@ body {
   background-color: black;
 }
 
+/* flex utility */
 .display-flex {
   display: flex;
+}
+/* flex utility */
+
+/* sections general istructions   */
+
+main {
+  height: calc(100vh - 130px);
+  overflow: auto;
 }
 
 main .container {
@@ -17,33 +26,32 @@ main .container {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1500px;
   width: 100%;
 }
 
-header#top-bar {
-background-color: black;
- height: 60px;
-}
-
-main {
-  height: calc(100vh - 130px);
-  overflow: auto;
-}
-
 footer#bottom-bar {
-  background-color: yellow;
+  background-color: #222222;
   height: 70px;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
 }
+
+/* /sections general istructions   */
+
+/* header top-bar  */
+
+header#top-bar {
+  background-color: black;
+   height: 60px;
+  }
 
 header#top-bar .functions {
  justify-content: flex-end;
  height: 100%;
  padding-top: 10px;
 }
-
-
-
 
 #top-bar .functions a{
   color: white;
@@ -67,8 +75,10 @@ header#top-bar .functions {
   margin-left: 10px;
   margin-right: 5px;
 }
+/* /header top-bar  */
 
 /* video-cards  */
+
 
 main .video-card {
   min-width: 200px;
@@ -93,4 +103,22 @@ main .video-card .user {
   padding: 2px;
   color: white;
   font-size: .8rem;
+}
+
+.btn {
+  color: white;
+  background-color: #222222;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(87, 85, 85);
+}
+
+.resize {
+  font-size: 25px;
+}
+.action {
+  padding-top: 5px;
 }
