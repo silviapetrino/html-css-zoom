@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
 
 .display-flex {
   display: flex;
@@ -15,36 +18,79 @@ main .container {
   align-items: center;
   margin: 0 auto;
   max-width: 1400px;
-  width: 90%;
-  background-color: white;
+  width: 100%;
 }
 
 header#top-bar {
- background-color: red;
- height: 50px;
+background-color: black;
+ height: 60px;
 }
 
 main {
-  height: calc(100vh - 110px);
-  background-color: violet;
+  height: calc(100vh - 130px);
   overflow: auto;
 }
 
 footer#bottom-bar {
   background-color: yellow;
-  height: 60px;
+  height: 70px;
 }
 
 header#top-bar .functions {
  justify-content: flex-end;
- align-items: center;
  height: 100%;
+ padding-top: 10px;
 }
 
 
+
+
+#top-bar .functions a{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(103, 103, 103, .8);
+  border-radius: 5px;
+}
+
+#top-bar .functions a:hover {
+  background-color: gray;
+}
+
+#top-bar .functions .speaker-view a{
+  font-weight: 550;
+  font-size: .9rem;
+  padding: 6px 6px;
+}
+
+#top-bar .functions .maximize a{
+  padding: 5px 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+/* video-cards  */
+
 main .video-card {
-  border: 1px solid black;
-  width: calc(100vw / 7);
   min-width: 200px;
-  min-height: 150px;
+  min-height: 110px;
+  position: relative;
+}
+
+main .video-card img {
+  object-fit: cover;
+  width: 98%;
+  z-index: 0;
+}
+
+main .video-card .user {
+  display: inline-block;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 5px;
+  background-color: rgba(103, 103, 103, .5);
+  padding: 2px;
+  color: white;
+  font-size: .8rem;
 }
