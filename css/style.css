@@ -39,6 +39,12 @@ footer#bottom-bar {
   height: 100%;
 }
 
+footer .left-buttons,
+footer .icons,
+footer .edit {
+  height: 100%;
+}
+
 /* /sections general istructions   */
 
 /* header top-bar  */
@@ -109,7 +115,6 @@ main .video-card .user {
 
 
 /* footer buttons */
-
 
 
 .btn {
