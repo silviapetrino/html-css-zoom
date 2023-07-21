@@ -50,28 +50,28 @@ header#top-bar {
 
 header#top-bar .functions {
  justify-content: flex-end;
- height: 100%;
+ height: 50%;
  padding-top: 10px;
 }
 
-#top-bar .functions a{
+#top-bar .functions button{
   color: white;
   text-decoration: none;
   background-color: rgba(103, 103, 103, .8);
   border-radius: 5px;
 }
 
-#top-bar .functions a:hover {
+#top-bar .functions button:hover {
   background-color: gray;
 }
 
-#top-bar .functions .speaker-view a{
+#top-bar .functions .speaker-view button{
   font-weight: 550;
   font-size: .9rem;
   padding: 6px 6px;
 }
 
-#top-bar .functions .maximize a{
+#top-bar .functions .maximize button{
   padding: 5px 5px;
   margin-left: 10px;
   margin-right: 5px;
